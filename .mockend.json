@@ -34,7 +34,8 @@
         },
         "transactionId": {
             "loremWords": {
-                "minLength": 10
+                "minLength": 10,
+                "maxLength": 20
             }
         },
         "amount": {
@@ -56,9 +57,9 @@
             }
         },
         "created": {
-            "date": {
-                "min": "2021-11-01",
-                "max": "2021-11-11"
+            "dateTime": {
+                "min": "2010-01-01T00:00:00Z",
+                "max": "2020-12-31T23:59:59Z"
             }
         },
         "customer": {
